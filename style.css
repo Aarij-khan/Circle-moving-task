@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    background-color:lime;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heading{
+    letter-spacing: 1px;
+    font-size: 40px;
+    color: white;
+    transition-duration: 1s;
+    
+
+}
+#center{
+    height: 12vw;
+    width: 15vw;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color:rgb(27, 187, 27);
+}
+#heading:hover{
+    transform: rotate(360deg);
+}
